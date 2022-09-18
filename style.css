@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2020/10/05/11/16/space-5629007_1280.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  background: #ecf4ff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 3rem;
+
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  max-width: 160px;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  margin-left: 1rem;
+}
+
+.titulo h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.titulo h2 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #949494;
+  margin-bottom: 0.3rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.conquistas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.projetos {
+  
+  color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1.1rem 1rem;
+  margin-bottom: 1rem;
+  background: rgba(192, 192, 192, 0.6);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.projetos h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.projetos ul {
+  margin-left: 1rem;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 0.9rem;
+}
+
+.projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.projetos a:hover {
+  color: white;
+}
+
+.conquistas img {
+  border: 1px solid rgba(192, 192, 192, 0.6);
+  height: 80px;
+  padding: 3px;
+  border-radius: 100px;
+  margin-top: 15px;
+  max-height: 200px;
+  max-width: 200px;
+  box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+}
+
+.dark {
+  background-image: url("https://images2.alphacoders.com/521/521477.jpg");
+  background-size: center;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .titulo h3 {
+  text-shadow: 0px 2px 2px black;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  border-color: whitesmoke;
+  background: #a29e9e;
+}
+
+.tema button {
+  cursor: pointer;
+  align-self: flex-end;
+  background: rgba(192, 192, 192, 0.6);
+  border: 2px solid rgba(192, 192, 192, 0.6);
+  color: #3cb5ff;
+  border-radius: 60px;
+  padding: 3px 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25);
+}
